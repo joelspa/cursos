@@ -1,0 +1,27 @@
+.profile__header{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+  padding: 24px;
+  background: #23272b;
+  border-radius: 12px;
+}
+.profile__avatar{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDzRq5qq50S1Y0YOp4JlfMz7wGVCraXYAAwmgzygIKyAGUq7noCUqzOwrbWaateS_Tz-jaByGIZWn558AJS2e0FTUJRb40xBYAzJwNEStjHb2dMOFBjbWCEc8Ubc2PNEk8CkP4vJJycStSdqRYnr4w9_jq0CtLumeIDmgwcsN5PLmNBge6LshpIalNAt2ex9eHd7Z3R3EOHlRnct9_r0tJN8OjnnOL4sbl2CgVD_swXftmkHihXLkV86x6d3MJ4_k9X4vLQ-QleWdc4');
+  background-size: cover;
+  background-position: center;
+}
+.profile__header h2{
+  color: #fafafa;
+  margin: 0;
+  font-size: 1.5rem;
+}
+.profile__header p{
+  color: #c7c7c7;
+  margin: 4px 0 0;
+  font-size: 0.9rem;
+}

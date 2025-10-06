@@ -1,0 +1,38 @@
+.course__section{
+  margin-bottom: 32px;
+}
+.course__section h3{
+  color: #fafafa;
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+.modulos{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.modulo{
+  background: #23272b;
+  border: 1px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.modulo summary{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  cursor: pointer;
+  padding: 16px;
+  background: #1f2225;
+  color: #fafafa;
+  font-weight: 600;
+}
+.modulo[open] summary{
+  background: #23272b;
+}
+.modulo__content{
+  padding: 16px;
+  color: #c7c7c7;
+  background: #1a1e22;
+}

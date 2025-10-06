@@ -1,0 +1,35 @@
+/* Base minimalista y oscura, similar a 'Rutina Final web' */
+:root {
+  font-family: 'Manrope', Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Paleta de marca basada en el prompt */
+  --color-primary: #1152d4;
+  --bg-light: #f6f6f8;
+  --bg-dark: #101622;
+  --text-light: #1b1b1b;
+  --text-dark: #eaeaea;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+a { color: inherit; }
+
+button { font-family: inherit; }
+
+/* Contenedor centrado tipo "container" */
+.contenido{
+  max-width: 1100px;
+  margin: 0 auto;
+}

@@ -1,0 +1,26 @@
+/* Estilos base similares a Rutina Final web */
+body {
+  font-family: Arial, sans-serif;
+  background: #181a1b;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.app{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenido{
+  flex: 1;
+  padding: 16px 0;
+}
+
+h1,h2,h3{
+  color: #fafafa;
+}
+
+/* Eliminar estilos del scaffold que no usamos */
+.logo, .card, .read-the-docs { display: none; }

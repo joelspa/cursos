@@ -1,0 +1,36 @@
+.navbar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: 12px 0;
+  background: #0f1422;
+  color: var(--text-dark);
+  border-bottom: 1px solid #333;
+}
+.navbar > .contenido{ display: flex; align-items: center; justify-content: space-between; padding: 0 20px; }
+.navbar__brand{ display: flex; align-items: center; gap: 8px; cursor: pointer; }
+.navbar__icon{ color: var(--color-primary); display: flex; }
+.navbar__logo{ font-weight: 800; }
+.navbar__links{
+  display: flex;
+  gap: 10px;
+}
+.navbar__links button{
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+.navbar__links .btn-secondary{
+  background: #2a3145;
+  color: var(--text-dark);
+}
+.navbar__avatar{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: center/cover no-repeat url("https://lh3.googleusercontent.com/aida-public/AB6AXuDzRq5qq50S1Y0YOp4JlfMz7wGVCraXYAAwmgzygIKyAGUq7noCUqzOwrbWaateS_Tz-jaByGIZWn558AJS2e0FTUJRb40xBYAzJwNEStjHb2dMOFBjbWCEc8Ubc2PNEk8CkP4vJJycStSdqRYnr4w9_jq0CtLumeIDmgwcsN5PLmNBge6LshpIalNAt2ex9eHd7Z3R3EOHlRnct9_r0tJN8OjnnOL4sbl2CgVD_swXftmkHihXLkV86x6d3MJ4_k9X4vLQ-QleWdc4");
+  cursor: pointer;
+}

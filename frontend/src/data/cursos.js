@@ -1,0 +1,85 @@
+export const CURSOS = [
+  {
+    id: '1',
+    titulo: 'Introducción a la Programación',
+    descripcion: 'Aprende los fundamentos de la programación con ejercicios prácticos.',
+    categoria: 'Programación',
+    nivel: 'Básico',
+    idioma: 'Español',
+    progreso: 75,
+    portada: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAZQkLNHMkZR2ZMtpJrvDXoGzdP1PL05pTVDK54mJlHToinPf2WeR2I8dxif4XEe_dMFZU1JM3YyYf70HdgW1pQC_yJeVEj6Sj2FglDbeUAXtNk3h_gltMWdIC2c14nHFmTNc6VlK0_XQ-6ybGIxWtUKsJ9dWbw2k-wCkwpt2AAa1Rq6T7SuJ0_IdVJY6nkydlDv0XYlTNlWYaI6jqAth8GMACEPbUIbBBPXv6RToJnD2fq1Ek_Jhu62-bLOBHtUznuRewupvqd53_A',
+    instructor: {
+      nombre: 'Ana García',
+      bio: 'Desarrolladora Full Stack con 8 años de experiencia en tecnologías web. Especialista en JavaScript y Python.',
+      avatar: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDzRq5qq50S1Y0YOp4JlfMz7wGVCraXYAAwmgzygIKyAGUq7noCUqzOwrbWaateS_Tz-jaByGIZWn558AJS2e0FTUJRb40xBYAzJwNEStjHb2dMOFBjbWCEc8Ubc2PNEk8CkP4vJJycStSdqRYnr4w9_jq0CtLumeIDmgwcsN5PLmNBge6LshpIalNAt2ex9eHd7Z3R3EOHlRnct9_r0tJN8OjnnOL4sbl2CgVD_swXftmkHihXLkV86x6d3MJ4_k9X4vLQ-QleWdc4',
+      experiencia: '8 años',
+      especialidad: 'Programación'
+    },
+    modulos: [
+      { id: 'm1', titulo: 'Variables y tipos', lecciones: 6 },
+      { id: 'm2', titulo: 'Condicionales y bucles', lecciones: 8 },
+      { id: 'm3', titulo: 'Funciones', lecciones: 5 },
+    ],
+  },
+  {
+    id: '2',
+    titulo: 'Diseño de Interfaces de Usuario',
+    descripcion: 'Crea interfaces modernas y accesibles sin frameworks pesados.',
+    categoria: 'Diseño',
+    nivel: 'Intermedio',
+    idioma: 'Español',
+    progreso: 50,
+    portada: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBtptR69TwHzulec8ZvJu1HWhg7Hf4erZzql-GJqtJ58gyFq8NOLDGDNbRarWr5FsQYRO0RHDjnp0hz4LyNNH4TZTw3BPb55juBTXJI5KhBZoRc-_6mZWqmX5DEII4HS-gvCtwM5eeqVzhm6i6d7JBwbkwv5zDLHQvJG1tqOUF887WXciInrgD03eNVjvunIuA32FqXNN1i7y5fSMXe1oskAihjqwpZoxnwDIT05GN7QkkdCVOUWBbBwB7AtbEMAHG0Lhb4zxQiO9oa',
+    instructor: {
+      nombre: 'Carlos Mendoza',
+      bio: 'Diseñador UX/UI con más de 6 años creando experiencias digitales para startups y grandes empresas.',
+      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face',
+      experiencia: '6 años',
+      especialidad: 'Diseño UX/UI'
+    },
+    modulos: [
+      { id: 'm1', titulo: 'Principios de diseño', lecciones: 4 },
+      { id: 'm2', titulo: 'Tipografía y color', lecciones: 6 },
+      { id: 'm3', titulo: 'Componentes UI', lecciones: 7 },
+    ],
+  },
+  {
+    id: '3',
+    titulo: 'Marketing Digital',
+    descripcion: 'Domina estrategias de marketing para crecer tu audiencia.',
+    categoria: 'Marketing',
+    nivel: 'Básico',
+    idioma: 'Inglés',
+    progreso: 25,
+    portada: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCRGBAGl1N7Epef85cDqxStTFD1crBwTNe4EtP5jZRRgd4BNp5uIvg-1nEulvjZsCj1zEeFLWQx6gRpaN1OW3ENEwWK3XtPNeqqOiQDUEERpmkDabKc3a1I0SVdWAjYf3uQbngbA41dGon0dJyxBPy60QFAMFzjBhUp5t_NFuc9Ta1jNu3O8NLu3sJymyHzgrtxCS9mUW-q77xTYclsGdf5HUQuWys5eA4FTuGbXf0QGl3TZzdUgINQweP2MMSLzwWM78y6BYIzrYTn',
+    portadaDetalle: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDHnc_FZKdWLQapxZ2sxf3iPEyDSk4YVI-q2dpflrnJzRqEAwxtaOxHI3taBHKvePfBb7Wvz8lmNr7LpuI3WfvSw4pzIBZVe2vqiDYSFPBbpBHIOGHvUhPbtiVFq33wg9mf-GeDXZg04ykbBDD_0OZIqwnbXfld360R0dsgtYNfv_G8XpOVSWWwu3tYV1UL8T38D9rSMHPdo4x4RXbDwkRlw0NGLg-xh-q2pof3d_UKveiidgUVSshL6UXZbgEc9xYXUKjunq6tZcw',
+    instructor: {
+      nombre: 'María López',
+      bio: 'Especialista en Marketing Digital con experiencia en crecimiento de startups y e-commerce.',
+      avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b287?w=150&h=150&fit=crop&crop=face',
+      experiencia: '5 años',
+      especialidad: 'Marketing Digital'
+    },
+    modulos: [
+      { id: 'm1', titulo: 'SEO y SEM', lecciones: 5 },
+      { id: 'm2', titulo: 'Redes sociales', lecciones: 6 },
+      { id: 'm3', titulo: 'Email marketing', lecciones: 4 },
+    ],
+  },
+  {
+    id: '4',
+    titulo: 'Marketing Digital',
+    descripcion: 'Domina estrategias de marketing para crecer tu audiencia.',
+    categoria: 'Marketing',
+    nivel: 'Básico',
+    idioma: 'Inglés',
+    progreso: 25,
+  portada: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCRGBAGl1N7Epef85cDqxStTFD1crBwTNe4EtP5jZRRgd4BNp5uIvg-1nEulvjZsCj1zEeFLWQx6gRpaN1OW3ENEwWK3XtPNeqqOiQDUEERpmkDabKc3a1I0SVdWAjYf3uQbngbA41dGon0dJyxBPy60QFAMFzjBhUp5t_NFuc9Ta1jNu3O8NLu3sJymyHzgrtxCS9mUW-q77xTYclsGdf5HUQuWys5eA4FTuGbXf0QGl3TZzdUgINQweP2MMSLzwWM78y6BYIzrYTn',
+  portadaDetalle: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDHnc_FZKdWLQapxZ2sxf3iPEyDSk4YVI-q2dpflrnJzRqEAwxtaOxHI3taBHKvePfBb7Wvz8lmNr7LpuI3WfvSw4pzIBZVe2vqiDYSFPBbpBHIOGHvUhPbtiVFq33wg9mf-GeDXZg04ykbBDD_0OZIqwnbXfld360R0dsgtYNfv_G8XpOVSWWwu3tYV1UL8T38D9rSMHPdo4x4RXbDwkRlw0NGLg-xh-q2pof3d_UKveiidgUVSshL6UXZbgEc9xYXUKjunq6tZcw',
+    modulos: [
+      { id: 'm1', titulo: 'SEO y SEM', lecciones: 5 },
+      { id: 'm2', titulo: 'Redes sociales', lecciones: 6 },
+      { id: 'm3', titulo: 'Email marketing', lecciones: 4 },
+    ],
+  },
+]

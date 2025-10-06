@@ -1,0 +1,32 @@
+.course__actions{
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.btn-primary{
+  background: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .2s ease;
+}
+.btn-primary:hover{
+  background: #0d47a1;
+}
+.btn-secondary{
+  background: transparent;
+  color: #fafafa;
+  border: 1px solid #555;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color .2s ease, background .2s ease;
+}
+.btn-secondary:hover{
+  border-color: #777;
+  background: rgba(255,255,255,.05);
+}

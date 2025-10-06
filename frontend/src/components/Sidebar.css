@@ -1,0 +1,72 @@
+.sidebar{
+  background: #23272b;
+  border-radius: 10px;
+  padding: 14px;
+  height: fit-content;
+}
+.sidebar h3{ margin: 0 0 10px; }
+
+.buscador{
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #1f2225;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 6px 10px 6px 30px;
+  margin-bottom: 10px;
+}
+.buscador .icono{ position: absolute; left: 8px; opacity: .7; }
+.buscador input{
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fafafa;
+  width: 100%;
+}
+
+.acordeon{ 
+  border-radius: 8px; 
+  overflow: hidden; 
+  border: 1px solid #333; 
+  background: #1f2225; 
+  margin-bottom: 10px;
+}
+.acordeon summary{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  cursor: pointer;
+  padding: 10px 12px;
+}
+.acordeon[open] summary{ background: #23272b; }
+.acordeon .campo{ padding: 10px 12px 12px; margin: 0; }
+
+.campo{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+.campo label{ color: #e3e3e3; font-size: .95em; }
+.campo input, .campo select{
+  padding: 8px 10px;
+  border: 1px solid #444;
+  border-radius: 6px;
+  background: #1f2225;
+  color: #fafafa;
+}
+
+.check{ display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+
+.btn-reset{
+  width: 100%;
+  background: transparent;
+  color: #fafafa;
+  border: 1px solid rgba(255,255,255,.35);
+  border-radius: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.btn-reset:hover{ border-color: rgba(255,255,255,.5); background: rgba(255,255,255,.06); }
