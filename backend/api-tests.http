@@ -1,0 +1,93 @@
+# Ejemplos de Peticiones HTTP para el API de Cursos
+
+# Puedes usar este archivo con extensiones como REST Client en VS Code
+# O copiar los comandos cURL para usarlos en la terminal
+
+### Obtener todos los cursos
+GET http://localhost:3000/api/courses
+
+###
+
+### Obtener curso por ID
+GET http://localhost:3000/api/courses/1
+
+###
+
+### Obtener cursos por nivel
+GET http://localhost:3000/api/courses/level/principiante
+
+###
+
+### Crear un nuevo curso
+POST http://localhost:3000/api/courses
+Content-Type: application/json
+
+{
+  "title": "Vue.js desde Cero",
+  "instructor": "Pedro Martínez",
+  "duration": "35 horas",
+  "level": "Intermedio",
+  "price": 44.99,
+  "description": "Aprende Vue.js y crea aplicaciones web modernas",
+  "image": "https://via.placeholder.com/300x200?text=Vue.js",
+  "modules": [
+    { "id": 1, "title": "Introducción a Vue", "duration": "3 horas" },
+    { "id": 2, "title": "Componentes", "duration": "4 horas" },
+    { "id": 3, "title": "Vuex", "duration": "5 horas" }
+  ]
+}
+
+###
+
+### Actualizar un curso
+PUT http://localhost:3000/api/courses/1
+Content-Type: application/json
+
+{
+  "price": 39.99,
+  "rating": 4.9
+}
+
+###
+
+### Eliminar un curso
+DELETE http://localhost:3000/api/courses/3
+
+###
+
+### Inscribir usuario en un curso
+POST http://localhost:3000/api/enrollments
+Content-Type: application/json
+
+{
+  "userId": "user123",
+  "courseId": 1
+}
+
+###
+
+### Obtener inscripciones de un usuario
+GET http://localhost:3000/api/enrollments/user/user123
+
+###
+
+### Actualizar progreso
+PUT http://localhost:3000/api/enrollments/1/progress
+Content-Type: application/json
+
+{
+  "progress": 75,
+  "completed": false
+}
+
+###
+
+### Cancelar inscripción
+DELETE http://localhost:3000/api/enrollments/1
+
+###
+
+### Verificar que el servidor está funcionando
+GET http://localhost:3000/
+
+###
